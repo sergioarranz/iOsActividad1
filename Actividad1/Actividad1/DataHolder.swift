@@ -2,8 +2,8 @@
 //  DataHolder.swift
 //  Actividad1
 //
-//  Created by developer on 23/3/17.
-//  Copyright © 2017 Jorge López Fernández. All rights reserved.
+//  Created by Sergio Arranz on 23/3/17.
+//  Copyright © 2017 Sergio Arranz. All rights reserved.
 //
 
 import UIKit

@@ -3,7 +3,7 @@
 //  Actividad1
 //
 //  Created by Sergio Arranz on 4/4/17.
-//  Copyright © 2017 Jorge López Fernández. All rights reserved.
+//  Copyright © 2017 Sergio Arranz. All rights reserved.
 //
 
 import UIKit
@@ -11,7 +11,7 @@ import UIKit
 class TVCMiCelda: UITableViewCell {
 
     @IBOutlet var lblNombre:UILabel?
-    @IBOutlet var imgcelda:UIImage?
+    @IBOutlet var imgcelda:UIImageView?
     
     override func awakeFromNib() {
         super.awakeFromNib()

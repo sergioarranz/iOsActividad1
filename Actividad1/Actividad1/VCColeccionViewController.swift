@@ -3,7 +3,7 @@
 //  Actividad1
 //
 //  Created by Sergio Arranz on 7/4/17.
-//  Copyright © 2017 Jorge López Fernández. All rights reserved.
+//  Copyright © 2017 Sergio Arranz. All rights reserved.
 //
 
 import UIKit
@@ -32,13 +32,17 @@ class VCColeccionViewController: UIViewController,UICollectionViewDelegate,UICol
             cell.lblNombre?.text="Play Station"
             cell.imgvMain?.image=UIImage(named: "playstation.jpg")
         } else if (indexPath.row==1) {
-            cell.lblNombre?.text="Coche 2"
+            cell.lblNombre?.text="Game Boy"
+            cell.imgvMain?.image=UIImage(named: "gameboy.jpg")
         } else if (indexPath.row==2) {
-            cell.lblNombre?.text="Coche 3"
+            cell.lblNombre?.text="xBox"
+            cell.imgvMain?.image=UIImage(named: "xbox.jpg")
         } else if (indexPath.row==3) {
-            cell.lblNombre?.text="Coche 4"
+            cell.lblNombre?.text="PSP"
+            cell.imgvMain?.image=UIImage(named: "psp.png")
         } else if (indexPath.row==4) {
-            cell.lblNombre?.text="Coche 5"
+            cell.lblNombre?.text="Wii"
+            cell.imgvMain?.image=UIImage(named: "wii.png")
         }
 
                 
